@@ -16,143 +16,115 @@
 /* Window and Body Styles */
 
 html {
-   height: 100%
-
+  height: 100%;
 }
+
 body {
-   margin-left:auto;
-   margin-right: auto;
-   min-width: 640px;
-   max-width: 960px;
-   width: 95%;
-   min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 640px;
+  max-width: 960px;
+  width: 95%;
+  min-height: 100%;
 }
 
 header, ul, nav, li, a {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-
-
 
 /* Row Styles */
 
-row::after {
-   clear: both;
-   content: "";
-   display: table;
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
 }
-
-
-
 
 /* Page Header Styles */
 
 body > header > img {
-      display: block;
-      float: left;
-      width: 70%;
-   }
-
-   body > header > nav {
-      float: left;
-      padding-left: 2%;
-      padding-right: 2%;
-      width: 30%;
-   }
-
-   body > header > nav a {
-      display : block;
-      width: 100%;
-   }
-
-
-
-
-
-/* Horizontal Navigation List Styles */
-nav.horizontalNavigation li {
-      display: block;
-      float: left;
-      width: 12.5%;
-      
+  display: block;
+  float: left;
+  width: 70%;
 }
 
+body > header > nav {
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 30%;
+}
 
+body > header > nav a {
+  display: block;
+  width: 100%;
+}
+
+/* Horizontal Navigation List Styles */
+nav.horizontal li {
+  display: block;
+  float: left;
+  width: 12.5%;
+}
 
 /* Topics Styles */
-ul#topic li {
-   display: block;
-   float: left;
-   width: 20%;
-   margin-left: 0%;
-   margin-right: 1.5%;
-
-
+ul#topics li {
+  display: block;
+  float: left;
+  width: 20%;
+  margin-left: 0%;
+  margin-right: 1.5%;
 }
 
 ul#topics li:first-of-type {
-   margin-left: 7.75%;
+  margin-left: 7.75%;
 }
 
 ul#topics li:last-of-type {
-   margin-right: 7.75%;
+  margin-right: 7.75%;
 }
 
 ul#topics li img {
-   display: block;
-   width: 50%;
-   margin: 0 auto;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
 }
- 
-
-
-
-
-
-
-
 
 /* HR Styles */
 
 hr {
-   width: 50%;
+  width: 50%;
 }
-
-
 
 /* Customer Comment Styles */
 
 ul#comments {
-   width: 75%;
-   margin: 40px auto;
+  width: 75%;
+  margin: 40px auto;
 }
 ul#comments li {
-display: block;
-float: left;
-margin-bottom: 30px;
-width: 50%;
-
-
+  display: block;
+  float: left;
+  margin-bottom: 30px;
+  width: 50%;
 }
 
 ul#comments li img {
-display: block;
-float: left;
-width: 20%;
-margin: 0 5%;
+  display: block;
+  float: left;
+  width: 20%;
+  margin: 0 5%;
 }
 
 ul#comments li p {
-   float: left;
-   width: 70%;
+  float: left;
+  width: 70%;
 }
-
 
 /* Footer Styles */
 
 footer {
-   clear: both;
+  clear: both;
 }

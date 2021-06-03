@@ -42,9 +42,7 @@ figure figcaption {
  html {
     background-image: url(tb_back1.png);
  }
-
-
-
+ 
 /* Article Styles */
 article {
    background: url(tb_back2.png) bottom right / 15% no-repeat content-box,
